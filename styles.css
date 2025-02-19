@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #fff;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+}
+h2 {
+  color: #ff5c8d;
+}
+.box {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  position: relative;
+  text-align: left;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.selected {
+  border: 2px solid #ff5c8d;
+  background: #fff5f8;
+  padding: 20px;
+}
+.most-popular {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  background: #ff5c8d;
+  color: white;
+  font-size: 12px;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+.discount {
+  background: #ff5c8d;
+  color: white;
+  padding: 3px 7px;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+.price {
+  float: right;
+  font-weight: bold;
+}
+.strikethrough {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 12px;
+}
+.free-delivery {
+  color: #ff5c8d;
+  font-weight: bold;
+}
+.add-to-cart {
+  width: 100%;
+  padding: 10px;
+  background: #ff5c8d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.options {
+  display: none;
+}
+.expanded .options {
+  display: block;
+}
